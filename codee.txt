@@ -86,3 +86,8 @@ ngi
 sudo chmod 777 html 
 cd ../../var/www
 sudo chmod 777 html
+
+
+
+
+const response = Math.random()
