@@ -1,0 +1,88 @@
+#!/bin/bash
+apt-get update
+apt-get upgrade
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -SL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+apt-get install -y nodejs
+git clone https://github.com/Sharanyamsd/sharanyab.git
+cd sharanyab
+npm install
+node index.js
+
+
+
+
+
+
+
+
+#!/bin/bash
+sudo apt-get  update
+sudo apt-get upgrade
+sudo apt-get install  -y  nginx
+systemctl start nginx
+systemctl enable nginx
+sudo apt-get install  -y  git
+curl -SL https://deb.nodesource.com/setu_18.x | sudo -E  bash -
+sudo apt-get install  -y  nodejs
+git clone https://github.com/Sharanyamsd/sb_practice.git
+cd sb_practice
+npm install
+node index.js
+
+
+
+
+
+#!/bin/bash
+apt-get update
+apt-get upgrade
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+apt-get install -y nodejs
+git clone https://github.com/imnick48/SD_GH.git
+cd SD_GH
+npm install
+node index.js
+
+
+
+
+
+
+
+
+
+
+
+git init
+git remote add origin http//:
+git add .
+git commit -m "First Commit"
+git branch -M master
+git push -u origin master
+
+
+git init 
+git clone
+
+
+
+
+
+
+
+update 
+upgrade
+nginx
+ngi
+../../var/www
+sudo chmod 777 html 
+cd ../../var/www
+sudo chmod 777 html
